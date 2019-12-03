@@ -1,10 +1,7 @@
 # Complete project details at https://RandomNerdTutorials.com
 
 from machine import Pin
-from time import sleep
-
-led = Pin(2, Pin.OUT)
+led = Pin(22, Pin.OUT)
 
 while True:
 led.value(not led.value())
-sleep(0.5)
