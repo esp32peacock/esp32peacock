@@ -1,4 +1,4 @@
-![ESP32Peacock_logo](https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock_sqaure.jpg?raw=true)
+![ESP32Peacock_logo](https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock.png?raw=true)
 # esp32peacock
 
 Project ESP32Peacock is a development kit for Micropython on ESP32. It allows for users to write code through the webserver on the ESP board.
