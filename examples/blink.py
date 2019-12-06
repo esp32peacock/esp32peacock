@@ -6,3 +6,6 @@ led = Pin(22, Pin.OUT)
 
 while True:
 led.value(not led.value())
+
+<WEB1>
+<WEB2>
