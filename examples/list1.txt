@@ -1,4 +1,4 @@
-<select onChange="example()">
+<select onChange="example(this)">
    <option value="" disabled selected>Choose an example from list</option>
    <option value="blink.py">Slow Blink LED Pin 22 :blink.py</option>
    <option value="2">Blink.py</option>
