@@ -4,3 +4,4 @@
    <option value="2">Blink.py</option>
    <option value="3">Blink.py</option>
 </select>
+<label>Examples</label>
