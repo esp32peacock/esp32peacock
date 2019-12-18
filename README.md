@@ -11,4 +11,4 @@ The whole operation relies on javascript interval web load for running code. Whi
 # License
 MIT License
 
-Copyright (c) [2020] [Bunnavit Sawangpiriyakij]
+Copyright (c) 2020 Bunnavit Sawangpiriyakij
