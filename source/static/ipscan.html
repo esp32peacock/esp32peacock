@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta charset="UTF-8">
+<title>ESP32Peacock ipSCAN</title>
+<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+<script>
+			function httpGetAsync(theUrl, callback)
+			{
+				var xmlHttp = new XMLHttpRequest();
+				xmlHttp.onreadystatechange = function() { 
+					if (xmlHttp.readyState == 4 && xmlHttp.status == 200) {
+						callback(xmlHttp.responseText);
+					} else {
+						console.log(xmlHttp.responseText);
+					}
+				}
+				xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+				xmlHttp.send(null);
+			}
+			
+			function callbackScan(rst)
+			{
+				document.getElementById("scan").innerHTML = "<a href='"+rst+"'>"+rst+"</a>";
+			}
+			
+			function scan()
+			{
+				var ip = document.getElementById("ip").value
+				var res = ip.substr(0,ip.lastIndexOf("."));
+				console.log(res);
+				for(i=0; i<255; i++) {
+					var res1 = "http://"+res+"."+i.toString()+":8081/scan";
+					httpGetAsync(res1,callbackScan);	   
+				}			
+			}
+</script>
+</head>
+<body>
+<div id="main">
+<div><br><br></div>
+<div align="center">Change WiFi Connection before SCAN</div>
+<div><br></div>
+<div align="center">AP mode default IP is <a href="http://192.168.4.1:8081">http://192.168.4.1:8081</a> SSID ESP32Peacock</div>
+<div><br></div>
+<div id="scan" align="center"> </div>
+<div><br><br><br></div>
+<div align="center">
+<input type="text" id="ip" value="192.168.1.1">
+<button onclick="scan()" type="button"> ip SCAN </button>
+</div>
+<div><br></div>
+<div align="center">
+<img src="/static/EPC.png" alt="ESP32Peacock">
+</div>
+<div><br></div>
+<div align="center">
+Copyrights © Unauthorized for use in businesses
+</div>
+</div>
+</body>
+</HTML>
