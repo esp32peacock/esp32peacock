@@ -12,3 +12,6 @@ The whole operation relies on javascript interval web load for running code. Whi
 MIT License
 
 Copyright (c) 2020 Bunnavit Sawangpiriyakij
+
+
+![Screen_shot1](https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock_Screen2%20(1).jpg?raw=true)
