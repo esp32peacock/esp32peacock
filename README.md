@@ -11,7 +11,7 @@ The whole operation relies on javascript interval web load for running code. Whi
 # Install
 To use this code you need DFRobot uPyCraft <a href='https://github.com/DFRobot/uPyCraft'>https://github.com/DFRobot/uPyCraft</a>
 
-Flash ESP32 with lastest MicroPython bin download from <a href='http://micropython.org/download'>http://micropython.org/download</a>
+Flash ESP32 with lastest MicroPython bin download from <a href='http://micropython.org/download'>http://micropython.org/download</a> at 0x1000
 
 Connect ESP32 by click Serial button and Link drag and drop file on this Git to ESP32
 
