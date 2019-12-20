@@ -21,5 +21,4 @@ MIT License
 Copyright (c) 2020 Bunnavit Sawangpiriyakij
 
 
-<IMG src="https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock_Screen2%20(1).jpg?raw=true" width="30%">
-<IMG src="https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock_Screen2%20(2).jpg?raw=true" width="30%">
+<IMG src="https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock_Screen2%20(1).jpg?raw=true" width="30%"><IMG src="https://github.com/esp32peacock/esp32peacock/blob/master/ESP32Peacock_Screen2%20(2).jpg?raw=true" width="30%">
